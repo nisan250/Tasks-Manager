@@ -1,0 +1,30 @@
+.table-header {
+  background-color: #54585d;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 16px;
+  border-bottom: 1px solid #54585d;
+  padding: 14px;
+  position: relative;
+}
+
+.table-header:first-child {
+  border-radius: 10px 0 0 0;
+}
+
+.table-header:last-child {
+  border-radius: 0 10px 0 0;
+}
+
+.table-header span {
+  left: 0;
+  position: absolute;
+}
+
+.table-header-clickable {
+  cursor: pointer;
+}
+
+.table-header-clickable:hover {
+  text-decoration: underline;
+}

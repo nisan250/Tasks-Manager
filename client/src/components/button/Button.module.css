@@ -1,0 +1,26 @@
+.button {
+  padding: 6px 14px;
+  border-radius: 6px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  background: linear-gradient(180deg, #4b91f7 0%, #367af6 100%);
+  background-origin: border-box;
+  box-shadow: 0px 0.5px 1.5px rgb(54 122 246 / 25%),
+    inset 0px 0.8px 0px -0.25px rgb(255 255 255 / 20%);
+  user-select: none;
+  touch-action: manipulation;
+  box-sizing: border-box;
+}
+
+.button:hover {
+  box-shadow: 0px 0.5px 1.5px rgba(8, 56, 145, 0.25),
+    inset 0px 0.8px 0px -0.25px rgb(255 255 255 / 20%);
+}
+
+.button[type="reset"] {
+  background: transparent;
+  color: #4b91f7;
+  box-shadow: none;
+  text-decoration: underline;
+}

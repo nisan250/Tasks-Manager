@@ -1,0 +1,7 @@
+table {
+  border: 1px solid #54585d;
+  border-radius: 13px;
+  border-spacing: 0;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  width: 100%;
+}
